@@ -15,7 +15,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - image: ghcr.io/guesswh0/webapp:0.1.0
+      - image: ghcr.io/guesswh0/webapp:0.1.1
         name: webapp
         ports:
         - containerPort: 5001
